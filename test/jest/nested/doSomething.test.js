@@ -1,4 +1,4 @@
-import { doSomething } from './doSomething';
+import {doSomething} from '../../../src/doSomething';
 
 describe('do something', () => {
     it('does not throw', async () => {
