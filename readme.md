@@ -1,4 +1,4 @@
-# JS Playground project. 
+# JS Playground project
 
 * index.html shows a sum of 2 random numbers
 * test/jest includes a bunch of Jest tests
