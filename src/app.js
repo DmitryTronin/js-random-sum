@@ -6,7 +6,9 @@ window.addEventListener('load', function() {
     
     if (elem !== null) {
         elem.innerText = "The sum of " + num1 + " and " + num2 + " is " + sum;
-    } else {
+    }
+        else
+    {
         console.log("Element with ID 'sum' not found");
     }
 });
