@@ -53,6 +53,7 @@ healthcheck() {
     sleep 1
   done
   echo "[healthcheck] page served on :${PORT}"
+  echo "QA_TEST_10_S2_HEALTHCHECK_OK"
 }
 
 if [ -n "${WARMUP:-}" ]; then healthcheck; fi
